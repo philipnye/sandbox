@@ -26,8 +26,7 @@ ChangePageTitle=function(e){
 	};
 	t.setTitle=function(e){
 		if(e=="hidden"){
-			// var t=document.title.replace("Z63",n);
-			var t=document.title.replace("Philip Nye's",n);
+			var t=document.title.replace(document.title,n);	// replace the whole title with new title (can also just replace partial title)
 			document.title=t
 		}
 		else{
