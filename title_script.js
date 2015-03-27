@@ -1,4 +1,4 @@
-Z63.ChangePageTitle=function(e){
+ChangePageTitle=function(e){
 	"use strict";
 	var t={},n,r;
 	t.init=function(e){
